@@ -1,0 +1,212 @@
+Enter file contents here<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>soominj</title>
+<script>
+  alert("'전수민'에 대해 알아보시겠습니까?");
+</script>
+    <style>
+        body {
+            width: 960px; margin: 0 auto;
+            background: white;
+        }
+        </style>
+        <style>
+        h1 {  color: white;
+          background-color:  skyblue;
+
+        }
+        </style>
+   <style>
+
+      #header {
+               width:1000px; margin: 0 auto;
+               background-color: : gray;
+               position: fixed;
+               left: 0; top: 0; right: 0;
+               height: 50px;
+      }
+   </style>
+   <style>
+      .select { color: hotpink; }
+   </style>
+<style>
+  table {
+       width: 500px; height: 400px;
+       font-size: 6pt;
+  }
+</style>
+<style>
+ tbody td.fri {
+   background-color: green;
+ }
+ tbody td.frid {
+   background-color: green;
+   color: red;
+ }
+</style>
+</head>
+<body>
+<div id="header">
+<h1>나다<hr/></h1>
+</div>
+<div id="wrap">
+<h2>나</h2>
+ <p>
+  <ul>
+    <li class="select"><ins>이름: 전수민</ins></li>
+    <li class="select"><ins>생년월일:1997.02.17</ins></li>
+    <li>출생지:서울 성북구</li>
+    <li>학력:<a href="http://www.hansung.ac.kr/~ie">한성대학교 산업경영공학과</a> 재학중</li>
+    <li>사진</li>
+    <li>시간표
+      <table border="1">
+        <thead>
+          <tr>
+            <td>주</td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>1교시<br/>9:00~9:50</td>
+                <td></td>
+                  <td>&nbsp;웹 프로그래밍&nbsp;</td>
+                    <td></td>
+                      <td></td>
+                        <td class="fri">&nbsp;금&nbsp;</td>
+          </tr>
+          <tr>
+          <td>2교시<br/>10:00~10:50</td>
+          <td>&nbsp;작업설계&nbsp;</td>
+          <td>&nbsp;웹 프로그래밍&nbsp;</td>
+          <td>&nbsp;오픈소스 HW실습&nbsp;</td>
+          <td></td>
+          <td class="fri">&nbsp;요&nbsp;</td>
+          </tr>
+          <tr>
+          <td>3교시<br/>11:00~11:50</td>
+          <td>&nbsp;작업설계&nbsp;</td>
+          <td></td>
+          <td>&nbsp;오픈소스 HW실습&nbsp;</td>
+          <td></td>
+          <td class="fri">&nbsp;일&nbsp;</td>
+          </tr>
+          <tr>
+          <td>4교시<br/>12:00~12:50</td>
+          <td></td>
+          <td></td>
+          <td>&nbsp;오픈실습 HW실습&nbsp;</td>
+          <td>&nbsp;웹 프로그래밍&nbsp;</td>
+          <td class="fri">&nbsp;은&nbsp;</td>
+          </tr>
+          <tr>
+          <td>5교시<br/>1:00~1:50</td>
+          <td></td>
+          <td>&nbsp;작업설계&nbsp;</td>
+          <td></td>
+          <td></td>
+          <td class="fri"> </td>
+          </tr>
+          <tr>
+          <td>6교시<br/>2:00~2:50</td>
+          <td></td>
+          <td>&nbsp;작업설계&nbsp;</td>
+          <td></td>
+          <td></td>
+          <td class="fri">&nbsp;공&nbsp;</td>
+          </tr>
+          <tr>
+          <td>7교시<br/>3:00~3:50</td>
+          <td>&nbsp;컴퓨터 구조&nbsp;</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="fri">&nbsp;강&nbsp;</td>
+          </tr>
+          <tr>
+          <td>8교시<br/>4:00~4:50</td>
+          <td>&nbsp;컴퓨터 구조&nbsp;</td>
+          <td></td>
+          <td>&nbsp;나를 위한 글쓰기&nbsp;</td>
+          <td></td>
+          <td class="fri">&nbsp;입&nbsp;</td>
+          </tr>
+          <tr>
+          <td>9교시<br/>5:00~5:50</td>
+          <td>&nbsp;컴퓨터 구조&nbsp;</td>
+          <td></td>
+          <td>&nbsp;나를 위한 글쓰기&nbsp;</td>
+          <td></td>
+          <td class="fri">&nbsp;니&nbsp;</td>
+          </tr>
+          <tr>
+            <td>야간</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="fri">&nbsp;다&nbsp;</td>
+          </tr>
+          <tr>
+            <td>1교시<br/>6:00~6:50</td>
+            <td>&nbsp;C 프로그래밍&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="frid">&nbsp;♥&nbsp;</td>
+          </tr>
+          <tr>
+            <td>2교시<br/>6:55~7:45</td>
+          <td>&nbsp;C 프로그래밍&nbsp;</td>
+          <td></td>
+          <td>&nbsp;C 프로그래밍&nbsp;</td>
+          <td></td>
+          <td class="frid">&nbsp;♥&nbsp;</td>
+          </tr>
+      </tbody>
+    </table>
+    </li>
+  </ul>
+</p>
+<h2>취미 및 흥미</h2>
+
+  <ol>취미
+     <li>맛집 찾아다니기</li>
+     <li>강아지 안고다니면서 산책하기</li>
+     <li>노래방 가기</li>
+     <li>혼자 돌아다니기</li>
+     <li>생각하기</li>
+  </ol>
+<ol>흥미
+<li>IT계열과 관련해서 개발에 흥미를 갖고있음</li>
+<li>아이돌 그룹</li></ol>
+
+
+<h2></h2>
+
+<h2>듣기 좋아하는 말/싫어하는 말</h2>
+ <p>고마워~/니가 해, 너가 좀 해줘</p>
+
+ <h2>추가로 나에 대해 더 알수있는 곳</h2>
+ <p><a href="https://www.facebook.com/">페이스북(본인의 계정으로 회원가입 후 검색)</a></p>
+ <p><a href="http://www.pikicast.com/">피키캐스트(들어가서 '뷰티풀원더풀' 검색)</a></p>
+
+<h3>요즘 드는 생각</h3>
+<p>2학년이 되서 IT응용시스템공학과로 전과를 했더니, 1학년 수업을 들어야되는 상황이 되었다. 1학년 때 배우지 못한 과목이라서 지금 듣는 건
+  어찌보면 당연한 것이다. 근데 나에겐 어렵다. C언어도 쉽다고 생각했는데, 나만 그런 것이 아닌지 동생들이 너무 잘한다.
+그래서 벌써부터 성적이 걱정된다. 웹프로그래밍은 재밌다. 근데 실수해서 오류가 나면 캐치를 잘 못한다. 오픈소스는 내가 민폐다.
+ C언어 연계과목인데 동시에 배우고있으니,.. 같은 조원분이 매번 다하셔서 죄송하기만 하다. 나도 수업전에 열심히 예습 복습하고 문제도 혼자
+풀어보려고 하는데 한번도 혼자 풀어본 적이 없었다.</p>
+
+<h3>바램</h3>
+<p>과거:연예인, 가수, 시인<br/></p>
+<p>현재:하드웨어 개발자, 웹디자이너</p>
+
+</body>
+</html>
