@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>soominj</title>
+<script>
+  alert("'전수민'에 대해 알아보시겠습니까?");
+</script>
+    <style>
+        body {
+            width: 960px; margin: 0 auto;
+            background: white;
+        }
+        </style>
+        <style>
+        .container {  color: white;
+          background-color:  skyblue;
+
+        }
+        h1{  color: white;
+          background-color:  skyblue;
+
+        }
+        </style>
+   <style>
+
+
+   </style>
+
+
+
+
+<style>
+     div.container {
+         overflow: hidden;
+     }
+
+     div.item {
+         float: left;
+
+         margin: 0 3px;
+         padding: 10px;
+         border: 1px solid black;
+     }
+ </style>
+
+</head>
+<body>
+<div id="header">
+<h1>자기소개</h1>
+
+<div class="container">
+     <div class="item"><a href="http://localhost/It's%20me.html">나(전수민)</a></div>
+     <div class="item"><a href="http://localhost/favorite.html">취미 및 좋아하는 것</a></div>
+     <div class="item"><a href="http://localhost/talk.html">말말말</div>
+     <div class="item"><a href="http://localhost/problem.html">고민</div>
+     <div class="item"><a href="">희망 직업</div>
+ </div>
+ </div>
+
+</body>
+</html>
