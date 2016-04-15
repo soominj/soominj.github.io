@@ -22,19 +22,18 @@
     		if (words[i].startsWith(small_char) || words[i].startsWith(big_char))
     		    return_words.push(words[i]);
     	}
-       
+        
 
     	return return_words;
     }
 
     var test = ['apple', 'Apple', 'banana', 'Blueberry', 'peach', 'Melon'];
     var ret = getAwords(test);
-    console.log(ret.join(',')); 
+    console.log(ret.join(','));
     var ret2 = getWordsBeginWith(test, 'm');
-    console.log(ret2.join(','));
+    console.log(ret2.join(',')); 
 </script>
   </head>
   <body>
-  
   </body>
 </html>
