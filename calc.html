@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM Exercise</title>
-    
+
     <script>
         var first_val;
         var operand;
 
        function display_debug() {
-            var debug_out = document.querySelectorAll('button');
 
             var debug_out = document.getElementById("debug_area");
             var debug_text = "<p>first_val:" + first_val + "</p>";
             debug_text += "<p>operand:" + operand + "</p>";
-            debug_out.innerHTML = debug_text;
             debug_out.style.color='white';
            debug_out.style.backgroundColor='green';
+             debug_out.innerHTML = debug_text;
 
         }
 
@@ -129,22 +128,21 @@
             document.getElementById("btn_clear").onclick = button_clear;
         }
     </script>
-       <style>
-    * { margin:0; padding: 0;}
-        #back-rounge{
-            text-align: center;
-            margin: 0 auto;
-            width: 960px;
-            width: 200px;
-            margin: 0px; padding: 0px;
-            border: 3px solid blue;
-            border-radius: 0px;
-            box-shadow: 0px 0px 22px 0px blue;
-        }
-    </style>
+    <style>
+ * { margin:0; padding: 0;}
+     #calc-CSS{
+         text-align: center;
+        width: 960px;
+         width: 200px;
+         border: 3px solid lightblue;
+         border-radius: 20px;
+
+     }
+ </style>
 </head>
 <body>
-
+  <div id="calc-CSS">
+<h1>계산기</h1>
 <input type="text" id="text_display"/><br/>
 <button class="num_btn">1</button>
 <button class="num_btn">2</button>
