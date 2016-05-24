@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+
+    <title>HTML5 Basic Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0; padding: 0;
+            font-family: '맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;
+        }
+        a { text-decoration: none; }
+        li { list-style: none; }
+    </style>
+
+    <style>
+        body {
+            width: 960px; margin: 0 auto;
+            background: lightcyan;
+        }
+        #page-wrapper {
+            background: white;
+            margin: 40px 0; padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+        }
+    </style>
+    <!-- 헤더 위 두줄 ok -->
+    <style>
+        #main-header { padding: 40px 50px; }
+        .master-title {
+            font-size: 30px;
+            color: dodgerblue;
+        }
+        .master-description {
+            float: right;
+            font-size: 15px; font-weight: 500;
+            color: dodgerblue;
+        }
+    </style>
+
+    <style>
+        /* body 태그의 너비: 960픽셀 */
+        /* #page-wrapper 태그의 padding 속성으로 내용물 너비는 920픽셀 */
+        #content { overflow: hidden; }
+        #main-section {
+            float: left;
+            width: 710px;
+        }
+        #main-aside {
+            float: right;
+            width: 200px;
+        }
+    </style>
+    <!-- 좌측 내용물 hr선 색상-->
+    <style>
+        article {
+            padding: 0 10px 20px 10px;
+            border-bottom: 1px solid dodgerblue;
+        }
+        .article-header { padding: 20px 0; }
+        .article-title {
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        .article-date { font-size: 13px; }
+        .article-body {
+            font-size: 14px;
+        }
+    </style>
+    <!-- 우측 구성 -->
+
+
+    <style>
+        .menu {
+            width:25px;
+            margin: 0 3px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .menu1 {
+            width:50px;
+            margin: 0 3px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .menu2 {
+            width:170px;
+            margin: 0 3px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+
+    <style>
+        .navbar {
+            background: lightskyblue;
+            margin-bottom: 0;
+            border: 0;
+        }
+        .jumbotron {
+            background: skyblue;
+        }
+    </style>
+<style>
+     ul< li{float:left;}
+     ol< li{float:left;}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">전수민</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#It's me">이름</a></li>
+            <li><a href="#favorite">취미 및 좋아하는 음식</a></li>
+
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="master-title">자기소개 포트폴리오</h1>
+        <p>한성대학교 산업경영공학과 15학번</p>
+            </div>
+    </div>
+<div id="page-wrapper">
+    <header id="main-header">
+        <hgroup>
+
+            <h2 class="master-description">1595087 전수민</h2>
+        </hgroup>
+    </header>
+
+    <div id="content">
+        <section id="main-section">
+            <article>
+                <div class="article-header">
+                    <h1 class="article-title"> 전수민이란</h1>
+                    <p class="article-date"></p>
+                </div>
+                <div class="article-body">
+
+                    <br />
+                    <br />
+                    <ul>
+                        <h2 id="It's me"><div class="col-sm-6"><span class="glyphicon glyphicon-user"></span>나</div></h2>
+
+                        <li class="select"><ins>이름: 전수민</ins></li>
+                        <li class="select"><ins>생년월일: 1997.02.17</ins></li>
+                        <li>출생지: 서울 성북구</li>
+
+                        <li>학력: <a href="http://www.hansung.ac.kr/~ie">한성대학교 산업경영공학과</a> 재학중</li>
+
+                        <li>성격: 낯가림이 특히 남자에게 심하고, 초반에는 잘 웃지 않고 말도 없어서 다가가기 힘들다.<br/>
+                            그러나 친해지면 유치한거에도 잘 웃고 말도 굉장히 많아서 시끄럽다고 할 정도임.</li>
+
+
+                    </ul><br/><br/>
+                </div>
+            </article>
+            <article>
+                <div class="article-header">
+
+                    <h2 id="favorite"><div class="col-sm-6"><span class="glyphicon glyphicon-thumbs-up"></span>취미 및 좋아하는 것</div></h2>
+                    <ol>
+                        <li>1.맛집 찾아다니기</li>
+
+                        <li>2.강아지 안고다니면서 산책하기</li>
+
+                        <li>3.노래방 가기</li>
+
+                        <li>4.혼자 돌아다니기, 테마파크가기</li>
+                        <p>하도 잘돌아다녀서 혼자 놀이공원도 갔다왔다. 나를 찍어줄 사람이 없어서 그냥 놀이기구를 찍기만 했다.
+
+                        <li>5.생각하기(잡 생각이 많은 편이라서 한번에 몰아서 생각한다. 그렇다고 잡다한 생각만 하는 것이 아니라,
+                             정말 고민해야될 때는 진지하게 고민하기도 한다.)</li>
+                        <li>6.IT계열과 관련해서 개발에 흥미를 갖고있음</li>
+
+
+                    </ol>
+
+                </div>
+
+            </article>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
